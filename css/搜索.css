@@ -100,8 +100,8 @@ footer{
 	align-items: inherit;
 }
 footer a{
-	display: block;
-	height:100%;
+	width: 100%;
+    height: 100%;    display: block;
 	text-decoration: none;
 	position:relative;
 }
@@ -115,4 +115,12 @@ footer a p{
 footer a:nth-child(1){
 	background: url(../img/三叶草.png)no-repeat center top;
 	background-size:30%;
+}
+footer a:nth-child(2) {
+    background: url(../img/花叶.png)no-repeat center top;
+    background-size: 30%;
+}
+footer a:nth-child(3) {
+    background: url(../img/定位.png)no-repeat center top;
+    background-size: 30%;
 }

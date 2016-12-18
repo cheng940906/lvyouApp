@@ -88,8 +88,16 @@ ul,li{
 	padding:0 0.2rem;
 	border-bottom: 0.2rem solid #ccc;
 }
-.list2-con ul .hot .list2-1,.list2-con ul .hot .wentu{
-	width:100%;height: 1.5rem;
+.list2-con ul .hot .wentu{
+	width:100%;height: 2.6rem;
+	box-sizing: border-box;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	    top: .2rem;
+}
+.list2-con ul .hot .list2-1{
+	width:100%;height:1.5rem;
 	box-sizing: border-box;
 	position: relative;
 	display: flex;
